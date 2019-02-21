@@ -1,0 +1,106 @@
+@keyframes FadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@keyframes animate {
+    0% {
+        opacity:0;
+        }    
+    15%{
+        opacity: 1;
+    }
+    95%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+    }
+}
+
+body {
+    background-color:#E8E8E8;
+    color:#fff;
+    font-family: Sporting Grotesque;
+    overflow: hidden;
+    margin:0;
+
+}
+
+
+
+
+
+header h1 {
+        font-size:18px;
+        top:10px;
+        left:20px;
+        position: absolute;
+}
+
+.info {
+    width:600px;
+    font-size: 24px;
+    line-height:2.4;
+    font-weight: 800;
+    animation: FadeIn 3s ease;
+    z-index: 10;
+    top:50%;
+    left:50%;
+   margin-right:auto;
+   margin-left:auto;
+   position:fixed;
+   transform:translate(-50%,-50%);
+}
+
+
+
+
+section a{
+    text-decoration:none;
+    color:#FF994F;
+
+}
+
+
+footer {
+    position: absolute;
+    bottom:10px;
+    left:20px;
+    
+}
+
+div.images {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+  }
+  div.images img {
+    max-width:500px;
+    max-height:600px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    animation: animate 6s both;
+    box-shadow: 0 8px 6px -6px black;  }
+
+@media (max-width:500px) {
+    .info {
+        font-size:18px;
+        max-width: 400px;
+        margin: 50px 10px 0 20px;
+        top:0;
+        left:0;
+        transform:none;
+        position:relative;
+        
+    }
+
+    footer {
+        display:none;
+    }
+}
