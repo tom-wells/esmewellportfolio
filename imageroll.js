@@ -1,12 +1,12 @@
 
    let number = 0
 const images = [
-    'Sunrise Herd of the Hospice Campaign 2.png',
-    'Baphoment Jester Mask and Costume.png',
-    'Goodnight Mr Tom Set.png',
-    'Krampus Roaming Costume 4.png',
-    'Space Medusa 3.png',
-    'Interstellar Steed Herd of the Hospice Campaign.png',
+    "images/Sunrise Herd of the Hospice Campaign 2.png",
+    "images/Baphoment Jester Mask and Costume.png",
+    "images/Goodnight Mr Tom Set.png",
+    "images/Interstellar Steed Herd of the Hospice Campaign.png",
+    "images/Space Medusa 3.png",
+    "images/Krampus Roaming Costume 4.png",
       
 ]   
       
