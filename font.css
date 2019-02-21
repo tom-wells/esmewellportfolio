@@ -1,9 +1,19 @@
 @font-face {
-    font-family: "Sporting Grotesque";
-    src: url('Sporting_Grotesque-Bold_web.woff') url('Sporting_Grotesque-Bold_web.woff2');
+    font-family: "Sporting Grotesque Bold";
+    src: url('Sporting_Grotesque-Bold_web.eot');
+
+    src: url('Sporting_Grotesque-Bold_web.woff') format('woff'),
+         url('Sporting_Grotesque-Bold_web.woff2') format('woff2'),
+         url('Sporting_Grotesque-Bold_web.svg') format('svg'),
+         url('Sporting_Grotesque-Bold_web.ttf') format('truetype');
+    font-style: bold;
+    font-weight:bold;
 }
 
 @font-face {
-    font-family: "Sporting Grotesque";
-    src: url('Sporting_Grotesque-Regular_web.woff') url('Sporting_Grotesque-Regular_web.woff2');
+    font-family: "Sporting Grotesque Regular";
+    src: url('Sporting_Grotesque-Regular_web.woff') format('woff'),
+         url('Sporting_Grotesque-Regular_web.woff2') format('woff2');
+    font-style: normal;
+    font-weight:normal;
 }
