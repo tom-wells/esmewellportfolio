@@ -1,13 +1,13 @@
 @font-face {
-    font-family: 'Sporting Grotesque', 'Ariel' sans-serif;
-            url('web-fonts/Sporting_Grotesque-Bold_web.woff') format('woff'),
+    font-family: 'Sporting Grotesque';
+    src:    url('web-fonts/Sporting_Grotesque-Bold_web.woff') format('woff'),
             url('web-fonts/Sporting_Grotesque-Bold_web.woff2') format('woff2'),
             url('web-fonts/Sporting_Grotesque-Bold_web.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Sporting Grotesque", "Ariel" sans-serif;
-            url('web-fonts/Sporting_Grotesque-Regular_web.woff') format('woff'),
+    font-family: 'Sporting Grotesque';
+    src:    url('web-fonts/Sporting_Grotesque-Regular_web.woff') format('woff'),
             url('web-fonts/Sporting_Grotesque-Regular_web.woff2') format('woff2'),
             url('web-fonts/Sporting_Grotesque-Regular_web.ttf') format('truetype');
     
