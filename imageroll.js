@@ -1,4 +1,5 @@
-let number = 0
+
+   let number = 0
 const images = [
     'Sunrise Herd of the Hospice Campaign 2.png',
     'Baphoment Jester Mask and Costume.png',

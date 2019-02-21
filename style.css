@@ -66,6 +66,9 @@ section a{
 
 }
 
+.mobile-images {
+    display:none;
+}
 
 footer {
     position: absolute;
@@ -86,13 +89,17 @@ div.images {
     position: absolute;
     transform: translate(-50%, -50%);
     animation: animate 6s both;
-    box-shadow: 0 8px 6px -6px black;  }
+    box-shadow: 0 8px 6px -6px black; 
+
+}
 
 @media (max-width:500px) {
     .info {
+        width:90%;
         font-size:18px;
-        max-width: 400px;
-        margin: 50px 10px 0 20px;
+        margin-top:75px;
+        margin-right:20px;
+        margin-left:20px;
         top:0;
         left:0;
         transform:none;
@@ -100,7 +107,22 @@ div.images {
         
     }
 
+
     footer {
         display:none;
+    }
+
+    .mobile-images {
+        display: block;
+        text-align:center;
+
+    }
+    .photos img {
+        width:280px;
+        padding-top:10px;
+        padding-bottom:40px;
+    }
+    body {
+        overflow-y: visible;
     }
 }
