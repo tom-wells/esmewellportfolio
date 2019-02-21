@@ -125,4 +125,8 @@ div.images {
     body {
         overflow-y: visible;
     }
+
+    .images {
+        display:none;
+    }
 }
