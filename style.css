@@ -38,14 +38,16 @@ body {
 
 header h1 {
         font-size:18px;
-       padding: 10px 50px 50px 20px;
+       top:10px;
+       left:20px;
         position: fixed;
         z-index:10;
+        color:#FF994F;
 }
 
 header h1:hover {
     color:#FF994F;
-    animation: FadeIn 1s;
+    border-bottom: 2px solid #FF994F;
     cursor: pointer;
 
 }
@@ -120,18 +122,34 @@ div.images {
 }
 
 @media (max-width:500px) {
-    .info {
-        width:90%;
-        font-size:18px;
-        margin-top:75px;
-        margin-right:20px;
-        margin-left:20px;
-        top:0;
-        left:0;
-        transform:none;
+    
+
+    header h1 {
         position:relative;
-        
     }
+
+   
+    .info {
+        display:block;
+        width:90%;
+        font-size: 18px;
+        line-height:2.4;
+        font-weight: 800;
+        animation: FadeIn 3s ease;
+        z-index: 10;
+       position:relative;
+       margin-left:20px;
+       margin:-right:20px;
+       top:0;
+       left:0;
+       transform:translate(0,0);
+    }
+
+    header h1:hover {
+        border-bottom:none;
+        cursor: unset;
+    }
+    
 
 
     footer {
