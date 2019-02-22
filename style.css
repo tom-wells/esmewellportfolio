@@ -59,9 +59,11 @@ header h1 {
 }
 
 
+.back-to-top {
+    display:none;
+}
 
-
-section a{
+ a{
     text-decoration:none;
     color:#FF994F;
 
@@ -129,5 +131,14 @@ div.images {
 
     .images {
         display:none;
+    }
+
+    .back-to-top {
+        width:100%;
+        display:flex;
+        justify-content:center;
+        text-align:center;
+        bottom:0;
+        padding-bottom:40px;
     }
 }
